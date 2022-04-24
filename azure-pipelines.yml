@@ -37,3 +37,9 @@ steps:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)/npm'
     artifactName: npm
   displayName: 'Publish npm artifact'
+
+
+
+- script: |
+    npm run dev
+  displayName: 'Run Server on Dev'
