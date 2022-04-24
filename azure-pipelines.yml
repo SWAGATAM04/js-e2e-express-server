@@ -1,8 +1,7 @@
 trigger:
 - none
 
-pool:
-  vmImage: 'Default'
+pool: Default
 
 steps:
 - task: NodeTool@0
